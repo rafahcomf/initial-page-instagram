@@ -60,7 +60,7 @@ body {
 }
 
 .instagram-logo {
-    height: 6rem;
+    height: 3rem;
 }
 
 .profile-photo {
@@ -123,5 +123,35 @@ body {
     background-image: url(./imgs/appleButton.png);
 }
 .app-download:nth-child(2) {
-    background-image: url(./imgs/google-play-badge.png);
+    background-image: url(./imgs/google-logo-history-png-2804.png);
+}
+
+/* media queries response*/
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
 }
